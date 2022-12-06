@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Asul:wght@400;700&family=Marmelad&display=swap');
+:root {
+  --displayFont: 'Marmelad', serif;
+  --mainFont: 'Asul', sans-serif;
+  --liver: #5b4b49;
+  --mauve: #b98ea7; 
+  --champagne: #eee0cb;
+  --monstera: #537a5a;
+  --xanadu: #748b75;
+}
+
+body {
+  font-family: var(--mainFont);
+  margin: 0;
+  background-color: var(--champagne);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 96%;
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+/**********************************************
+ NAVBAR 
+ *********************************************/
+
+.navbar {
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+  background-color: var(--liver);
+  color: #fff;
+  margin-bottom: 2rem;
+}
+
+.navbar-logo {
+  font-weight: 700;
+  font-size: 2rem;
+  font-family: var(--displayFont);
+  text-transform: uppercase;
+}
+
+.navlist {
+  list-style-type: none;
+}
+
+.navlist li {
+  display: inline;
+  font-weight: 700;
+  font-size: 1.25rem;
+}
+
+.navlist a {
+  color: var(--champagne);
+  text-decoration: none;
+  padding: 0.75rem 1rem;
+  border-radius: 0.5rem;
+}
+
+.navlist a:hover {
+  background-color: var(--xanadu);
+  color: #fff;
+}
+
+.navlist-left {
+  flex-grow: 2;
+}
