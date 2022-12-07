@@ -71,3 +71,34 @@ h1, h2, h3, h4, h5, h6 {
 .navlist-left {
   flex-grow: 2;
 }
+
+/**********************************************
+ FORM
+ *********************************************/
+
+ .error {
+  color: #444;
+  padding: 0.25rem 0.5rem;
+  font-style: italic;
+ }
+
+ .flex {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+ }
+
+/**********************************************
+ ALERTS
+*********************************************/
+
+.alert {
+  background-color: #ccc;
+  padding: 0.25rem 0.5rem;
+  border: 1px solid #444;
+}
+
+.alert-success {
+  background-color: var(--monstera);
+  color: var(--champagne);
+}
