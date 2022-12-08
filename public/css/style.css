@@ -102,3 +102,50 @@ h1, h2, h3, h4, h5, h6 {
   background-color: var(--monstera);
   color: var(--champagne);
 }
+
+/**********************************************
+ BUTTONS
+*********************************************/
+
+.btn {
+  background-color: var(--monstera);
+  color: #fff;
+  padding: 0.5rem 0.75rem;
+  border-radius: 0.25rem;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background-color: var(--xanadu);
+}
+
+/**********************************************
+ POSTS
+*********************************************/
+
+.title-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.card {
+  background-color: #fff;
+  padding: 1.25rem;
+  margin-bottom: 1rem;
+  border-radius: 0.25rem;
+}
+
+.details-row {
+  display: flex;
+  gap: 1rem;
+  margin: 0.25rem 0;
+  background-color: #f2f2f2;
+  padding: 0.25rem 0.5rem;
+  border-radius: 0.25rem;
+}
+
+.post-body {
+  margin: 1rem 0 1.25rem;
+}
