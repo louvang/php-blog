@@ -119,6 +119,14 @@ h1, h2, h3, h4, h5, h6 {
   background-color: var(--xanadu);
 }
 
+.btn-gray {
+  background-color: var(--mauve);
+}
+
+.btn-gray:hover {
+  background-color: #888;
+}
+
 /**********************************************
  POSTS
 *********************************************/
@@ -149,3 +157,9 @@ h1, h2, h3, h4, h5, h6 {
 .post-body {
   margin: 1rem 0 1.25rem;
 }
+
+.add-post-row input,
+.add-post-row textarea {
+  width: 70%;
+}
+

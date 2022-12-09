@@ -5,6 +5,10 @@
     }
 
     public function index(){
+      if (isLoggedIn()) {
+        redirect('posts');
+      }
+
       $data = [
         'title' => 'php-blog'
       ];

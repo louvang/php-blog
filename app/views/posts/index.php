@@ -1,8 +1,11 @@
 <?php require APPROOT.'/views/inc/header.php'; ?>
+  
   <div class="title-row">
     <h1>Posts</h1>
     <a href="<?php echo URLROOT; ?>/posts/add" class="btn"><i class="fa fa-pencil"></i> Add Post</a>
   </div>
+
+  <?php flash('post_message'); ?>
 
   <div class="posts">
     <?php foreach($data['posts'] as $post) { ?>
