@@ -113,6 +113,9 @@ h1, h2, h3, h4, h5, h6 {
   padding: 0.5rem 0.75rem;
   border-radius: 0.25rem;
   text-decoration: none;
+  font-family: var(--mainFont);
+  font-size: 1rem;
+  border: 0;
 }
 
 .btn:hover {
@@ -126,6 +129,23 @@ h1, h2, h3, h4, h5, h6 {
 .btn-gray:hover {
   background-color: #888;
 }
+
+.btn-dark {
+  background-color: var(--liver);
+}
+
+.btn-dark:hover {
+  background-color: #444;
+}
+
+.btn-red {
+  background-color: #a45a52;
+}
+
+.btn-red:hover {
+  background-color: #960019;
+}
+
 
 /**********************************************
  POSTS
@@ -158,8 +178,22 @@ h1, h2, h3, h4, h5, h6 {
   margin: 1rem 0 1.25rem;
 }
 
+.show-post-body {
+  margin: 1.5rem 0;
+}
+
 .add-post-row input,
 .add-post-row textarea {
   width: 70%;
 }
 
+hr.divider {
+  border: 0;
+  border-bottom: 1px solid #ccc;
+  margin-bottom: 2rem;
+}
+
+.user-admin-row {
+  display: flex;
+  justify-content: space-between;
+}
